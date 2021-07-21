@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form basic</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Singup info:</legend>
+            <label for="">Fullname</label> <br>
+            <input type="text" placeholder="Name"> <br>
+            <label for="">User name</label> <br>
+            <input type="text" placeholder="user name"> <br>
+            <label for="">Password</label> <br>
+            <input type="password" placeholder="password"> <br>
+            <label for=""> <strong>Sở Thích:</strong> </label> <br>
+            <label for=""><input type="checkbox" name="hobby" value="Bóng đá" checked>Bóng đá</label>  <br>
+            <label for=""><input type="checkbox" name="hobby" value="Cầu lông"></label>Cầu lông<br>
+            <label for=""><input type="checkbox" name="hobby" value="Tennis"> Tennis</label><br>
+            <label for=""> <strong>Công việc</strong> </label> <br>
+            <label for=""><input type="radio" name="work" value="Nhân viên văn phòng" checked>Nhân viên văn phòng</label> <br>
+            <label for=""><input type="radio" name="work" value="Bán hàng">Bán hàng</label> <br>
+            <label for=""><input type="radio" name="work" value="Freelancer">Freelancer</label> <br>
+            <label for="">Thông tin thêm</label> <br>
+            <textarea name="" id="" cols="20" rows="5"></textarea> <br>
+            <input type="reset" value="Đặt lại">
+        </fieldset>
+    </form>
+</body>
+<style>
+    input:focus , textarea:focus{
+        box-shadow: 1px 1px 10px rgb(2, 2, 63);
+    }
+</style>
+</html>

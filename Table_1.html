@@ -47,7 +47,8 @@
             font-size: 30px;
             box-shadow: 5px 5px 15px rgb(1, 152, 121);
             border-bottom: 10px solid rgb(1, 152, 121);
-            border-radius: 10px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
             left: 50%;
         }
         th {
@@ -57,6 +58,12 @@
             border-collapse: collapse;
             border-style: hidden;
             height: 60px;
+        }
+        th:nth-child(1) {
+            border-top-left-radius:15px;
+        }
+        th:nth-child(4) {
+            border-top-right-radius:15px;
         }
         td {
             width: 150px;
